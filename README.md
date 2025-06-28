@@ -13,8 +13,8 @@ A fun and interactive web app that changes its vibes and style based on the curr
 
 ## 🚀 How to Use
 Just open `index.html` in any modern browser!
+Enjoy the vibe! 💫
 
----
 
 Made with ❤️ by K.SREE CHANDANA
-Enjoy the vibe! 💫
+
