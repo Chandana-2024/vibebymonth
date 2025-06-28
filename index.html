@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VibeByMonth</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">VibeByMonth</nav>
+
+  <main>
+    <h2>Welcome to VibeByMonth!</h2>
+  <p>Discover the unique traits, symbols, and fun facts that define people born in each month.</p> 
+  <p>Select your birth month below to <strong>unlock your vibe!</strong></p>
+    <label for="month">Select Your Birth Month:</label>
+    <select id="month">
+      <option value="">--Select--</option>
+      <option value="January">January</option>
+      <option value="February">February</option>
+      <option value="March">March</option>
+      <option value="April">April</option>
+      <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="July">July</option>
+      <option value="August">August</option>
+      <option value="September">September</option>
+      <option value="October">October</option>
+      <option value="November">November</option>
+      <option value="December">December</option>
+    </select>
+
+    <button onclick="showVibe()">Submit</button>
+
+    <div id="output" style="display:none;"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

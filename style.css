@@ -1,0 +1,92 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fef9f4;
+  margin: 0; padding: 20px;
+  color: #4a3c3c;
+}
+body {
+      background-image: url('background.png'); /* Replace with your image path */
+      background-size: cover;       /* Make image cover the entire background */
+      background-position: center;  /* Center the image */
+      background-repeat: no-repeat; /* Prevent tiling */
+      background-attachment: scroll; /* Optional: keeps image fixed on scroll */
+      font-family: Arial, sans-serif;
+      
+    }
+.navbar {
+  background-color: #ffe2ea;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #a12a60;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #a12a60;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+p {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto 20px auto;
+  font-size: 1.1rem;
+  color: #5a3d4a;
+}
+
+
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+label, select, button {
+  font-size: 1.1rem;
+}
+select, button {
+  padding: 8px 12px;
+  margin: 10px 0 20px 0;
+}
+button {
+  background-color: #34495e;  /* dark slate blue */
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2c3e50;  /* a bit darker */
+}
+
+#output {
+  background: white;
+  border: 2px solid #a12a60;
+  border-radius: 8px;
+  padding: 20px;
+  line-height: 1.5;
+  color: #4a3c3c;
+  white-space: pre-line;
+  font-size: 1.1rem;
+}
+#output {
+  background: #fff0f6;
+  border-color: #a12a60;
+  box-shadow: 0 4px 10px rgba(161, 42, 96, 0.2);
+  padding: 25px 30px;
+  border-radius: 12px;
+  font-size: 1.15rem;
+  white-space: pre-line;
+  line-height: 1.6;
+}
